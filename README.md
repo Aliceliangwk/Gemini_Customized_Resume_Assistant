@@ -1,13 +1,12 @@
 ________
 title: Gemini Resume AI
-emoji: 📉
-colorFrom: indigo
-colorTo: pink
+emoji: 🚀
+colorFrom: red
+colorTo: red
 sdk: streamlit
 sdk_version: 1.34.0
 app_file: app.py
 pinned: false
-license: apache-2.0
 ________
 
 
