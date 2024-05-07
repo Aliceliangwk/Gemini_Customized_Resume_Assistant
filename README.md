@@ -1,3 +1,14 @@
+________
+Title: Gemini_Resume_AI
+colorFrom: blue
+colorTo: red
+sdk: streamlit 
+app_file:app.py
+pinned: false
+
+________
+
+
 # Gemini_Customized_Resume_Assistant
 
 
