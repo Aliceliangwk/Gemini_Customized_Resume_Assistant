@@ -1,11 +1,13 @@
 ________
-Title: Gemini_Resume_AI
-colorFrom: blue
-colorTo: red
-sdk: streamlit 
-app_file:app.py
+title: Gemini Resume AI
+emoji: 📉
+colorFrom: indigo
+colorTo: pink
+sdk: streamlit
+sdk_version: 1.34.0
+app_file: app.py
 pinned: false
-
+license: apache-2.0
 ________
 
 
