@@ -17,4 +17,9 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://Aliceai1:$HF_TOKEN@huggingface.co/spaces/Aliceai1/Gemini_Resume_AI main
+        run: 
+          git checkout main  # Ensure we're on the correct branch
+          git pull origin main  # Pull any changes from the remote branch
+          git add .  # Add all changes to the commit
+          git commit -m "Sync changes to Hugging Face hub"  # Commit changes
+          git push --force https://Aliceai1:$HF_TOKEN@huggingface.co/spaces/Aliceai1/Gemini_Resume_AI main
